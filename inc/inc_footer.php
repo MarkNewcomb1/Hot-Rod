@@ -1,9 +1,7 @@
 <hr />
       <table width="100%" style="border: 0">
-      <tr><td><strong>Updated</strong>&nbsp;06 January,
-      2010</td>
-      <td style="text-align: right">&copy; 2003 by Coast
-      City Computers.</td>
+      <tr><td><strong>Updated</strong> <?php echo date("r") ?></td>
+      <td style="text-align: right">&copy; <?php echo date("Y") ?> by Mark Newcomb.</td>
       </tr>
       <tr><td>
           <a href="http://validator.w3.org/check/
