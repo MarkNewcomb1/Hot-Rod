@@ -13,3 +13,7 @@
       <td style="text-align: right; vertical-align:
       top">All Rights Reserved.</td></tr>
       </table>
+</footer>
+<!--   <script src="js/scripts.js"></script> -->
+</body>
+</html>

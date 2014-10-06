@@ -1,3 +1,9 @@
+*{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -63,3 +69,81 @@ footer {
 }
 
 /* End sticky footer */
+
+/* Start some of Clinton's stuff I stole */
+
+#doc_body
+{
+	width:100%;
+	clear:both;
+}
+.doc_container
+{
+	max-width:1288px;
+	min-width:300px;
+	margin:0 auto;
+}
+@media screen and (max-width:1287px){
+	.doc_container
+	{
+		padding-right:4%;
+		padding-left:4%;
+	}
+}
+
+.content100
+{
+	width:100%;
+}
+.content75
+{
+	width:75%;
+	float:left;
+}
+.content67
+{
+	width:66.6%;
+	float:left;
+}
+
+.content50
+{
+	width:50%;
+	float:left;
+}
+.content33
+{
+	width:33.3%;
+	float:left;
+	box-sizing:border-box;
+}
+
+.content25
+{
+	width:25%;
+	float:left;
+}
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 35px;
+    height: 0;
+}
+.video-container iframe {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.inner
+{
+	margin:5px 20px;
+	padding:5px 20px 20px;
+}
+.clear
+{
+	width:100%;
+	clear:both;
+}
+
