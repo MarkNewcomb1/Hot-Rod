@@ -1,6 +1,6 @@
 <?php include("inc/inc_header.php"); ?>
 <body>
-<article class="book">
+<article class="book doc_container">
  <style>
   section { border: double medium; margin: 2em; }
   section.chapter h1 { font: 2em Roboto, Helvetica Neue, sans-serif; }

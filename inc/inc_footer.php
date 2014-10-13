@@ -1,3 +1,4 @@
+<div class="doc_container">
 <hr />
       <table width="100%" style="border: 0">
       <tr><td><strong>Updated</strong> <?php echo date("r") ?></td>
@@ -12,7 +13,7 @@
       </td>
       <td style="text-align: right; vertical-align:
       top">All Rights Reserved.</td></tr>
-      </table>
+      </table></div><!--end doc container-->
 </footer>
 <!--   <script src="js/scripts.js"></script> -->
 </body>
