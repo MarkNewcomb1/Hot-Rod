@@ -5,8 +5,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>The Unofficial Hot Rod User's Guide</title>
-  <meta name="description" content="The HTML5 Herald">
-  <meta name="author" content="SitePoint">
+  <meta name="description" content="Fender Hot Rod Deluxe">
+  <meta name="author" content="Mark Newcomb">
 
   <link rel="stylesheet" href="css/style.css?v=<?php echo time(); ?>">
 

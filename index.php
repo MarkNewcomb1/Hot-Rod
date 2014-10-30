@@ -18,7 +18,7 @@
   <p>But it has two paragraphs!</p>
  </section>
  <section class="chapter">
-  <h3>It Continutes: The Second Chapter</h3>
+  <h3>It Continues: The Second Chapter</h3>
   <p>Bla dee bla, dee bla dee bla. Boom.</p>
  </section>
  <section class="chapter">
