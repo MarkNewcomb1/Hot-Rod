@@ -1,5 +1,5 @@
 <?php include("inc/inc_header.php"); ?>
-<div data-role="panel" id="mypanel" data-position="right" data-display="push">
+<div data-role="panel" id="mypanel" data-position="right" data-display="push" data-position-fixed="true">
         <h1>HI THERE, PANEL CONTENT!</h1>
         <a href="#top" data-rel="close">Close panel</a><!-- panel content goes here -->
     </div><!-- /panel -->
