@@ -1,5 +1,4 @@
 <?php include("inc/inc_header.php"); ?>
-<div data-role="page">
 <div data-role="panel" id="mypanel" data-position="right" data-display="push">
         <h1>HI THERE, PANEL CONTENT!</h1>
         <a href="#top" data-rel="close">Close panel</a><!-- panel content goes here -->
@@ -42,5 +41,4 @@
   sections, so long as they are used to indicate actual sections.</p>
  </section>
 </article>
-</div> <!-- End div data role = page -->
 <?php include("inc/inc_footer.php"); ?>

@@ -20,6 +20,7 @@
 	<link rel="stylesheet" href="css/style.css?v=<?php echo time(); ?>">
 </head>
 <body>
+<div data-role="page">
 <div class="doc_container">
  <table width="100%" style="border: 0">
          <tr><td><h1>The Unofficial Fender Hot Rod Deluxe User's Guide</h1></td>

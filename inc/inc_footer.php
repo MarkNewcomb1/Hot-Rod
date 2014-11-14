@@ -17,5 +17,6 @@
       </table></div><!--end doc container-->
 </footer>
 <!--   <script src="js/scripts.js"></script> -->
+</div> <!-- end div data role=page started in the header -->
 </body>
 </html>
