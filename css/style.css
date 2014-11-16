@@ -66,6 +66,10 @@ footer {
     bottom: 0;
     height: 73px;
     width: 100%;
+    background-image:url("/img/tweed-background-2.jpg");
+    background-repeat: round;
+    background-size:cover;
+    -webkit-background-size:cover;
 }
 
 /* End sticky footer */
@@ -151,6 +155,23 @@ footer {
 .ui-panel{
 	background-color:green;
 }
+.ui-loader.ui-corner-all.ui-body-a.ui-loader-default.ui-loader-fakefix{
+	display:none!important;
+}
+.ui-loader.ui-corner-all.ui-body-a.ui-loader-default{
+	display:none!important;
+}
+.ui-page.ui-body-c.ui-page-panel.ui-page-active{
+	background-color:red;
+}
+
+
+/* top bar */
+.top-bar{
+	background-color:purple;
+	padding-bottom:15px;
+}
+
 
 /* let's see if I can get rid of calling jquery's stylesheet which is fucking everything up */
 
@@ -837,9 +858,11 @@ div.ui-slider-switch.ui-mini {
 .ui-panel-content-fixed-toolbar-open.ui-panel-content-fixed-toolbar-display-overlay, .ui-panel-content-wrap-open.ui-panel-content-wrap-display-overlay {
     left: 0;
 }
+/*
 .ui-page-active.ui-page-panel {
     overflow-x: hidden;
 }
+*/
 .ui-panel-display-reveal {
     -webkit-box-shadow: inset -5px 0 5px rgba(0, 0, 0, .15);
     -moz-box-shadow: inset -5px 0 5px rgba(0, 0, 0, .15);

@@ -1,5 +1,4 @@
 <footer>
-<hr />
 <div class="doc_container">
       <table width="100%" style="border: 0">
       <tr><td><strong>Updated</strong> <?php echo date("r") ?></td>
