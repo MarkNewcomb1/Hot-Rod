@@ -67,9 +67,10 @@ footer {
     height: 73px;
     width: 100%;
     background-image:url("/img/tweed-background-2.jpg");
-    background-repeat: round;
+    background-repeat:space;
     background-size:cover;
     -webkit-background-size:cover;
+    color:white;
 }
 
 /* End sticky footer */
@@ -86,6 +87,7 @@ footer {
 	max-width:1288px;
 	min-width:300px;
 	margin:0 auto;
+	color:white;
 }
 @media screen and (max-width:1287px){
 	.doc_container
@@ -162,14 +164,22 @@ footer {
 	display:none!important;
 }
 .ui-page.ui-body-c.ui-page-panel.ui-page-active{
-	background-color:red;
+	background-image:url("/img/oxblood-bg.jpg");
+	background-repeat:space;
+	background-size:cover;
+    -webkit-background-size:cover;
 }
+
 
 
 /* top bar */
 .top-bar{
-	background-color:purple;
+	background-image:url("/img/tweed-background-2.jpg");
+    background-repeat:space;
+    background-size:cover;
+    -webkit-background-size:cover;
 	padding-bottom:15px;
+	color:white;
 }
 
 
