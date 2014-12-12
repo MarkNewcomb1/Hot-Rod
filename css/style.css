@@ -1,3 +1,9 @@
+/* Loading fonts */
+@font-face{
+	font-family: script;
+	src: url('/fonts/script.ttf');
+}
+/* Font downloaded from fontmeme on a "Free for Personal Use" license */
 *{
 	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
@@ -66,11 +72,11 @@ footer {
     bottom: 0;
     height: 73px;
     width: 100%;
-    background-image:url("/img/tweed-background-2.jpg");
-    background-repeat:space;
-    background-size:cover;
-    -webkit-background-size:cover;
+	background-color:black;
     color:white;
+}
+.notice{
+	text-align:center;
 }
 
 /* End sticky footer */
@@ -88,6 +94,9 @@ footer {
 	min-width:300px;
 	margin:0 auto;
 	color:white;
+}
+article.doc_container{
+	color:black;
 }
 @media screen and (max-width:1287px){
 	.doc_container
@@ -155,7 +164,8 @@ footer {
 
 /* End of the reset, now specific styles for the site */
 .ui-panel{
-	background-color:green;
+background-color:green; 
+
 }
 .ui-loader.ui-corner-all.ui-body-a.ui-loader-default.ui-loader-fakefix{
 	display:none!important;
@@ -164,25 +174,64 @@ footer {
 	display:none!important;
 }
 .ui-page.ui-body-c.ui-page-panel.ui-page-active{
+/*
 	background-image:url("/img/oxblood-bg.jpg");
 	background-repeat:space;
 	background-size:cover;
     -webkit-background-size:cover;
+*/
+	background-color:rgb(239,239,239);
 }
-
 
 
 /* top bar */
 .top-bar{
+/*
 	background-image:url("/img/tweed-background-2.jpg");
     background-repeat:space;
     background-size:cover;
     -webkit-background-size:cover;
+*/
+	background-color:black;
 	padding-bottom:15px;
+	font-family: script;
 	color:white;
+
+}
+/*  main navigation (not the mobile one) */
+.menubar_container{
+text-align:center;
+margin-bottom: 19px;
+padding-bottom: 3px;
+padding-top: 11px;
+height: 40px;
+}
+.menubar_container ul{
+	line-height: 30px;
+}
+.menubar_container li{
+	display: inline-table;
+	margin: 0;
+	padding: 0;
+	padding-right: 5%;
+	font-size: 2em;
+}
+.menubar_container li:last-of-type {
+	padding-right: 0;
 }
 
+.mainNav{
+	overflow:hidden;
+}
 
+.menubar_container a {
+	text-decoration: none;
+	font-size:1.1em;
+	color:rgb(239,239,239);
+	border:1px solid rgb(239,239,239);
+	border-radius:.2em;
+	padding:0px 8px;
+}
 /* let's see if I can get rid of calling jquery's stylesheet which is fucking everything up */
 
 .ui-content .ui-listview, .ui-panel-inner > .ui-listview {

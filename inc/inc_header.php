@@ -23,8 +23,15 @@
 <div data-role="page">
 <div class="top-bar">
 <div class="doc_container">
- <table width="100%" style="border: 0">
-         <tr><td><h1>The Unofficial Fender Hot Rod Deluxe User's Guide</h1></td>
-         <td style="text-align: right"><strong>Rescuing The old site and putting it back on the web!</strong></td></tr></table>
+<div class="menubar_container">
+ <ul>
+    <li><a href="/index.html" class="homeLink">Home</a></li>
+    <li><a href="/features/" class="featureLink">Features</a></li>
+    <li><a href="/experts/" class="expertLink">Experts</a></li>
+    <li><a href="/quiz/" class="quizLink">Quiz</a></li>
+    <li><a href="/projects/" class="projectLink">Projects</a></li>
+    <li><a href="/horoscopes/" class="horoscopeLink">Horoscopes</a></li>
+ </ul>
+</div> <!-- end menubar container -->
          </div>	<!--doc_container-->
 </div> <!-- top-bar -->
