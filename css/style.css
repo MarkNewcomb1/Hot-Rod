@@ -3,6 +3,14 @@
 	font-family: script;
 	src: url('/fonts/script.ttf');
 }
+@font-face{
+	font-family: strato-linked-webfont;
+	src: url('/fonts/strato-linked-webfont.ttf');
+}
+@font-face{
+	font-family: strato-unlinked-webfont;
+	src: url('/fonts/strato-unlinked-webfont.ttf');
+}
 /* Font downloaded from fontmeme on a "Free for Personal Use" license */
 *{
 	-moz-box-sizing: border-box;
@@ -186,16 +194,9 @@ background-color:green;
 
 /* top bar */
 .top-bar{
-/*
-	background-image:url("/img/tweed-background-2.jpg");
-    background-repeat:space;
-    background-size:cover;
-    -webkit-background-size:cover;
-*/
 	background-color:black;
 	padding-bottom:15px;
-	font-family: script;
-	color:white;
+	font-family:strato-linked-webfont;
 
 }
 /*  main navigation (not the mobile one) */
@@ -214,7 +215,7 @@ height: 40px;
 	margin: 0;
 	padding: 0;
 	padding-right: 5%;
-	font-size: 2em;
+	font-size: 1.5em;
 }
 .menubar_container li:last-of-type {
 	padding-right: 0;
@@ -226,11 +227,8 @@ height: 40px;
 
 .menubar_container a {
 	text-decoration: none;
-	font-size:1.1em;
 	color:rgb(239,239,239);
-	border:1px solid rgb(239,239,239);
-	border-radius:.2em;
-	padding:0px 8px;
+	padding:0px 10px;
 }
 /* let's see if I can get rid of calling jquery's stylesheet which is fucking everything up */
 
