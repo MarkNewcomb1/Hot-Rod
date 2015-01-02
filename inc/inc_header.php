@@ -18,6 +18,7 @@
 	<script src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
 	<script src="http://code.jquery.com/mobile/1.3.0-beta.1/jquery.mobile-1.3.0-beta.1.min.js"></script>
 	<link rel="stylesheet" href="css/style.css?v=<?php echo time(); ?>">
+	<link href='http://fonts.googleapis.com/css?family=Didact+Gothic' rel='stylesheet' type='text/css'>
 </head>
 <body>
 <div data-role="page">
@@ -25,12 +26,19 @@
 <div class="doc_container">
 <div class="menubar_container">
  <ul>
-    <li><a href="/index.html" class="homeLink">Home</a></li>
-    <li><a href="/features/" class="featureLink">Features</a></li>
-    <li><a href="/experts/" class="expertLink">Experts</a></li>
-    <li><a href="/quiz/" class="quizLink">Quiz</a></li>
-    <li><a href="/projects/" class="projectLink">Projects</a></li>
-    <li><a href="/horoscopes/" class="horoscopeLink">Horoscopes</a></li>
+    <li><a href="/index.php" class="homeLink">Home</a></li>
+    <li><a href="/howtoarticles.php/" class="howtoarticlesLink">How-To Articles</a></li>
+    <li><a href="/faq.php/" class="faqLink">Faq</a>
+    	<ul class="dropdown">
+	    	<li id="first-dropdown"><a href="#">The Original FAQ</a></li>
+	    	<li><a href="#">Beginner's Guide to Tube Amps FAQ</a></li>
+	    	<li id="last-dropdown"><a href="#">About the Webmaster FAQ</a></li>
+    	</ul>
+    </li>
+    
+    
+    
+    </li>
  </ul>
 </div> <!-- end menubar container -->
          </div>	<!--doc_container-->

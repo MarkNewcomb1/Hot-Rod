@@ -105,6 +105,7 @@ footer {
 }
 article.doc_container{
 	color:black;
+	font-family: 'Didact Gothic', sans-serif;
 }
 @media screen and (max-width:1287px){
 	.doc_container
@@ -229,6 +230,43 @@ height: 40px;
 	text-decoration: none;
 	color:rgb(239,239,239);
 	padding:0px 10px;
+}
+
+/*  dropdown menu */
+.menubar_container li{
+	position:relative;
+	display:inline-block;
+}
+.menubar_container li a{
+	display:inline-block;
+}
+.menubar_container li ul{
+	display:none;
+	position:absolute;
+	top:1em;
+}
+.menubar_container li:hover ul{
+	display:block;
+}
+
+.menubar_container li li{
+	display:block;
+	background: #69b7e8;
+	padding:5px;
+	text-align:left;
+	font-size:.8em;
+}
+.menubar_container li ul li a:hover{
+	color:red;
+}
+
+.dropdown{
+	margin-top:15px;
+	width:275px;
+	font-family: 'Didact Gothic', sans-serif;
+}
+#first-dropdown{
+	padding-top:15px;
 }
 /* let's see if I can get rid of calling jquery's stylesheet which is fucking everything up */
 
