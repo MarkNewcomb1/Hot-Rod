@@ -12,11 +12,14 @@
   <![endif]-->
 	<link rel="stylesheet" href="css/style.css?v=<?php echo time(); ?>">
 	<link href='http://fonts.googleapis.com/css?family=Didact+Gothic' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="SlickNav/slicknav.css" />
+	<script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+	<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+	<script src="SlickNav/jquery.slicknav.min.js"></script>
 </head>
 <body>
 <div class="top-bar">
 <div class="doc_container">
-
 <div class="mastheadcontainer">
 	<h1 id="theunofficial">The Unofficial</h1>
 <a href="/">
@@ -24,9 +27,8 @@
 </a>
 <h1 id="usersguide">Fender Hot Rod Deluxe Owner's Guide!</h1>
 </div> <!--  end masthead container -->
-
 <div class="menubar_container">
- <ul>
+ <ul id="menu">
     <li><a href="/">Home</a></li>
     <li><a href="/howtoarticles.php/">How-To Articles</a></li>
     <li><a href="/faq.php">Faq</a>
@@ -34,10 +36,10 @@
 	    	<li id="first-dropdown"><a href="#">The Original FAQ</a></li>
 	    	<li><a href="#">Beginner's Guide to Tube Amps FAQ</a></li>
 	    	<li id="last-dropdown"><a href="#">About the Webmaster FAQ</a></li>
-    	</ul>
+    	</ul> <!-- end dropdown -->
     </li> 
     </li>
- </ul>
+ </ul> <!-- end menu -->
 </div> <!-- end menubar container -->
          </div>	<!--doc_container-->
 </div> <!-- top-bar -->
