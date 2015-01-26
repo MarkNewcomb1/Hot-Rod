@@ -6,7 +6,7 @@
   section.appendix h1 { font: small-caps 2em Roboto, Helvetica Neue, sans-serif; }
  </style>
  <header>
-   <h2><a name="top"></a>My Hot Rod Website</h2>
+   <h2><a name="top"></a>The FAQ page</h2>
    <p>A sample with not much content</p>
   <p><small>Published by Dummy Publicorp Ltd.</small></p>
  </header>
