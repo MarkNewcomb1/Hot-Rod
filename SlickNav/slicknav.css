@@ -4,7 +4,7 @@
 
 .slicknav_btn { position: relative; display: block; vertical-align: middle; float: right; padding: 0.438em 0.625em 0.438em 0.625em; line-height: 1.125em; cursor: pointer; }
 .slicknav_menu  .slicknav_menutxt { display: block; line-height: 1.188em; float: left; }
-.slicknav_menu .slicknav_icon { float: left; margin: 0.188em 0 0 0.438em; }
+.slicknav_menu .slicknav_icon { float: left; margin: 0.3em 0 0 0.438em; }
 .slicknav_menu .slicknav_no-text { margin: 0 }
 .slicknav_menu .slicknav_icon-bar { display: block; width: 1.125em; height: 0.125em; -webkit-border-radius: 1px; -moz-border-radius: 1px; border-radius: 1px; -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.25); -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.25); box-shadow: 0 1px 0 rgba(0, 0, 0, 0.25); }
 .slicknav_btn .slicknav_icon-bar + .slicknav_icon-bar { margin-top: 0.188em }
@@ -39,31 +39,32 @@
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
     border-radius: 4px;  
-    background-color: #222222;
 }
 /* Button Text */
 .slicknav_menu  .slicknav_menutxt {
     color: #FFF;
     font-weight: bold;
     text-shadow: 0 1px 3px #000;
+    font-family: 'Didact Gothic', sans-serif;
 }
 /* Button Lines */
 .slicknav_menu .slicknav_icon-bar {
   background-color: #f5f5f5;
 }
 .slicknav_menu {
-    background:#4c4c4c;
+	background:none;
     padding:5px;
 }
 .slicknav_nav {
     color:#fff;
     margin:0;
     padding:0;
-    font-size:0.875em;
+    font-size:1.1em;
 }
 .slicknav_nav, .slicknav_nav ul {
     list-style: none;
     overflow:hidden;
+    font-family: 'Didact Gothic', sans-serif;
 }
 .slicknav_nav ul {
     padding:0;

@@ -251,7 +251,7 @@ height: 40px;
 .menubar_container li ul{
 	display:none;
 	position:absolute;
-	top:1em;
+	top:1.15em;
 }
 .menubar_container li:hover ul{
 	display:block;
@@ -275,4 +275,35 @@ height: 40px;
 }
 #first-dropdown{
 	padding-top:15px;
+}
+
+
+
+/* media queries */
+@media only screen and (max-width:940px){
+	.dropdown{
+		width:200px;
+	}
+}
+@media only screen and (max-width:760px){
+	.dropdown{
+		width:182px;
+	}
+}
+@media only screen and (max-width:720px){
+	.dropdown{
+		width:180px;
+	}
+}
+@media only screen and (max-width:719px){
+	.menubar_container{
+		display:none;
+	}
+	.mastheadcontainer h1{
+		font-size:1.1em;
+	}
+	.slicknav_menu .dropdown{
+		width:300px;
+		margin-bottom:10px;
+	}
 }

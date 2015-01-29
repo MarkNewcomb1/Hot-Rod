@@ -12,7 +12,7 @@
   <![endif]-->
 	<link rel="stylesheet" href="css/style.css?v=<?php echo time(); ?>">
 	<link href='http://fonts.googleapis.com/css?family=Didact+Gothic' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" href="SlickNav/slicknav.css" />
+	<link rel="stylesheet" href="SlickNav/slicknav.css?v=<?php echo time(); ?>" />
 	<script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
 	<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 	<script src="SlickNav/jquery.slicknav.min.js"></script>
