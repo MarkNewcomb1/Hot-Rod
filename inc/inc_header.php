@@ -13,6 +13,8 @@
 	<link rel="stylesheet" href="css/style.css?v=<?php echo time(); ?>">
 	<link href='http://fonts.googleapis.com/css?family=Didact+Gothic' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="SlickNav/slicknav.css?v=<?php echo time(); ?>" />
+	<link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
+	<link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
 	<script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
 	<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 	<script src="SlickNav/jquery.slicknav.min.js"></script>

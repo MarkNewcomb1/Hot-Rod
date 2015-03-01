@@ -226,10 +226,6 @@ height: 40px;
 	padding-right: 5%;
 	font-size: 1.5em;
 }
-.menubar_container li:last-of-type {
-	padding-right: 0;
-}
-
 .mainNav{
 	overflow:hidden;
 }
@@ -237,9 +233,18 @@ height: 40px;
 .menubar_container a {
 	text-decoration: none;
 	color:rgb(239,239,239);
-	padding:0px 10px;
+	padding:0px 9px;
+	-webkit-transition: all 1s ease-out;
+	transition: all 1s ease-out;
 }
-
+.menubar_container a:hover{
+	color:#f91d38;
+	text-shadow: 0px 0px 17px rgba(255, 54, 54, 1);
+}
+.menubar_container li:last-of-type {
+	padding-right: 0;
+	padding-bottom:20px;
+}
 /*  dropdown menu */
 .menubar_container li{
 	position:relative;
@@ -259,19 +264,33 @@ height: 40px;
 
 .menubar_container li li{
 	display:block;
-	background: #69b7e8;
 	padding:5px;
 	text-align:left;
 	font-size:.8em;
 }
 .menubar_container li ul li a:hover{
-	color:red;
+	color:#f91d38;
+	text-shadow: 0px 0px 17px rgba(255, 54, 54, 1);
 }
 
 .dropdown{
 	margin-top:15px;
 	width:275px;
 	font-family: 'Didact Gothic', sans-serif;
+	background-image:url('../img/dropdown-background.jpg');
+	-webkit-transition: all 1s ease-out;
+	transition: all 1s ease-out;
+	-webkit-opacity: .8;
+	opacity: .8;
+}
+.slicknav_parent .dropdown{
+	-webkit-opacity:1;
+	opacity:1;
+}
+.dropdown:hover{
+	-webkit-opacity: 1;
+	opacity: 1;
+	visibility: visible;
 }
 #first-dropdown{
 	padding-top:15px;
