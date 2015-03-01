@@ -72,13 +72,13 @@ html {
     min-height: 100%;
 }
 body {
-    margin: 0 0 73px; /* bottom = footer height */
+    margin: 0 0 83px; /* bottom = footer height */
 }
 footer {
     position: absolute;
     left: 0;
     bottom: 0;
-    height: 73px;
+    height: 83px;
     width: 100%;
 	background-image:url("/img/tolex-background.jpg");
 	background-repeat:space;
@@ -90,8 +90,24 @@ footer {
 	margin-top: 2%;
 	font-family: 'Didact Gothic', sans-serif;
 	text-align:center;
+	font-size:.8em;
 }
-
+.bottom-nav{
+	margin-top:1%;
+	font-family: 'Didact Gothic', sans-serif;
+	text-align:center;
+}
+.bottom-nav a{
+	text-decoration: none;
+	color:inherit;
+	-webkit-transition: all 1s ease-out;
+	transition: all 1s ease-out;
+	
+}
+.bottom-nav a:hover{
+	color:#f91d38;
+	text-shadow: 0px 0px 17px rgba(255, 54, 54, 1);
+}
 /* End sticky footer */
 
 /* Start some of Clinton's stuff I stole */
@@ -318,11 +334,15 @@ height: 40px;
 	.menubar_container{
 		display:none;
 	}
+	#theunofficial{
+		padding-top:0;
+	}
 	.mastheadcontainer h1{
 		font-size:1.1em;
 	}
 	.slicknav_menu .dropdown{
-		width:300px;
+		width:100%;
+		margin-left:0;
 		margin-bottom:10px;
 	}
 }
