@@ -72,13 +72,13 @@ html {
     min-height: 100%;
 }
 body {
-    margin: 0 0 83px; /* bottom = footer height */
+    margin: 0 0 100px; /* bottom = footer height */
 }
 footer {
     position: absolute;
     left: 0;
     bottom: 0;
-    height: 83px;
+    height: 100px;
     width: 100%;
 	background-image:url("/img/tolex-background.jpg");
 	background-repeat:space;
@@ -91,6 +91,13 @@ footer {
 	font-family: 'Didact Gothic', sans-serif;
 	text-align:center;
 	font-size:.8em;
+}
+.trademark{
+	margin-top: 1%;
+	font-family: 'Didact Gothic', sans-serif;
+	text-align:center;
+	font-size:.6em;
+	color:rgb(203, 203, 203);
 }
 .bottom-nav{
 	margin-top:1%;

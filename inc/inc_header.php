@@ -25,7 +25,7 @@
 <div class="mastheadcontainer">
 	<h1 id="theunofficial">The Unofficial</h1>
 <a href="/">
-	<img id="mastheadimg" src="/img/fender-deluxe-png.png"/>
+	<img id="mastheadimg" src="/img/masthead.png"alt="nothing to see here"/>
 </a>
 <h1 id="usersguide">Fender Hot Rod Deluxe Owner's Guide!</h1>
 </div> <!--  end masthead container -->
