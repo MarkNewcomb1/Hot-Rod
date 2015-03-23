@@ -25,7 +25,7 @@ del, dfn, em, font, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td {
+table, caption, tbody, tfoot, thead, tr, th, td, figure {
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -147,6 +147,9 @@ article.doc_container{
 {
 	width:100%;
 }
+figure img{
+	width:100%;
+}
 .content75
 {
 	width:75%;
@@ -231,6 +234,33 @@ article.doc_container{
 	padding-top:12px;
 	padding-bottom:10px;
 }
+.inside-hero{
+	position:absolute;
+	top:45%;
+	right:15%;
+	font-family: 'Didact Gothic', sans-serif;
+}
+.button{
+	padding:10px 20px;
+	border-radius: .2em;
+	background-color:rgb(203, 203, 203);
+	color:black;
+	font-size: 2em;
+	display:inline-block;
+	text-decoration: none;
+	transition:color 0.4s ease-out;
+	-webkit-transition: color 0.4s ease-out;
+}
+.button:first-of-type{
+	margin-right:20px;
+}
+.button:hover{
+	color:rgb(203, 203, 203);
+	background-color:black;
+}
+article{
+	color:black;
+}
 /*  main navigation (not the mobile one) */
 .menubar_container{
 text-align:center;
@@ -298,6 +328,7 @@ height: 40px;
 
 .dropdown{
 	margin-top:15px;
+	z-index: 10;
 	width:275px;
 	font-family: 'Didact Gothic', sans-serif;
 	background-image:url('../img/dropdown-background.jpg');
@@ -336,6 +367,10 @@ height: 40px;
 	.dropdown{
 		width:180px;
 	}
+@media only screen and (min-device-width:720px) and (max-device-width:720px) and (orientation: portrait){
+	.inside-hero{
+		display:none;
+	}
 }
 @media only screen and (max-width:719px){
 	.menubar_container{
@@ -352,4 +387,14 @@ height: 40px;
 		margin-left:0;
 		margin-bottom:10px;
 	}
+	.inside-hero{
+		position:relative;
+		top:-90px;
+		left:7%;
+		display:inline-block;
+	}
+	.button{
+		font-size:1em;
+	}
 }
+
