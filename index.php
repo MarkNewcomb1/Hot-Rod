@@ -1,12 +1,12 @@
 <?php include("inc/inc_header.php"); ?>
 <div class="hero">
-	<figure class="content100">
-	<img src="img/hero_element.png">
-	</figure>
-	<div class="inside-hero">
-		<a class="button" href="#">The Articles</a>
-		<a class="button" href="faq.php">The FAQs</a>
-	</div>
+		<div class="button_container">
+		<a class="button" href="#" id="firstbutton">The Articles</a>
+		<a class="button" href="faq.php" id="secondbutton">The FAQs</a>
+		</div> <!-- end button container for the buttons -->
+		<figure class="content100">
+			<img src="img/hero_element.png">
+		</figure>
 </div> <!-- end hero -->
 <div class="doc_container">
 <article>

@@ -136,8 +136,7 @@ article.doc_container{
 	font-family: 'Didact Gothic', sans-serif;
 }
 @media screen and (max-width:1287px){
-	.doc_container
-	{
+	.doc_container, .button_container{
 		padding-right:4%;
 		padding-left:4%;
 	}
@@ -234,25 +233,27 @@ figure img{
 	padding-top:12px;
 	padding-bottom:10px;
 }
-.inside-hero{
-	position:absolute;
-	top:45%;
-	right:15%;
-	font-family: 'Didact Gothic', sans-serif;
-}
 .button{
+	position:absolute;
 	padding:10px 20px;
 	border-radius: .2em;
 	background-color:rgb(203, 203, 203);
 	color:black;
+	font-family: 'Didact Gothic', sans-serif;
 	font-size: 2em;
 	display:inline-block;
 	text-decoration: none;
 	transition:color 0.4s ease-out;
 	-webkit-transition: color 0.4s ease-out;
 }
-.button:first-of-type{
-	margin-right:20px;
+.button_container{
+	position:relative;
+	max-width:1000px;
+	min-width:300px;
+	margin:0 auto;
+}
+#secondbutton{
+	right:0;
 }
 .button:hover{
 	color:rgb(203, 203, 203);
@@ -260,6 +261,12 @@ figure img{
 }
 article{
 	color:black;
+}
+.hero{
+	position:relative;
+}
+.hero img{
+	vertical-align: bottom;
 }
 /*  main navigation (not the mobile one) */
 .menubar_container{
@@ -367,11 +374,6 @@ height: 40px;
 	.dropdown{
 		width:180px;
 	}
-@media only screen and (min-device-width:720px) and (max-device-width:720px) and (orientation: portrait){
-	.inside-hero{
-		display:none;
-	}
-}
 @media only screen and (max-width:719px){
 	.menubar_container{
 		display:none;
@@ -386,15 +388,6 @@ height: 40px;
 		width:100%;
 		margin-left:0;
 		margin-bottom:10px;
-	}
-	.inside-hero{
-		position:relative;
-		top:-90px;
-		left:7%;
-		display:inline-block;
-	}
-	.button{
-		font-size:1em;
 	}
 }
 
