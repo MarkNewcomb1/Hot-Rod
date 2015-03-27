@@ -236,6 +236,7 @@ figure img{
 .button{
 	position:absolute;
 	padding:10px 20px;
+	top:75px;
 	border-radius: .2em;
 	background-color:rgb(203, 203, 203);
 	color:black;
@@ -251,6 +252,9 @@ figure img{
 	max-width:1000px;
 	min-width:300px;
 	margin:0 auto;
+}
+#firstbutton{
+	left:0;
 }
 #secondbutton{
 	right:0;
@@ -360,6 +364,14 @@ height: 40px;
 
 
 /* media queries */
+@media only screen and (max-width:1080px){
+	#firstbutton{
+		margin-left:4%;
+	}
+	#secondbutton{
+		margin-right:4%;
+	}
+}
 @media only screen and (max-width:940px){
 	.dropdown{
 		width:200px;
@@ -388,6 +400,10 @@ height: 40px;
 		width:100%;
 		margin-left:0;
 		margin-bottom:10px;
+	}
+	.button{
+		top:45px;
+		font-size: 1.2em;
 	}
 }
 
