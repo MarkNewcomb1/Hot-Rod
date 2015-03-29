@@ -265,6 +265,13 @@ figure img{
 }
 article{
 	color:black;
+	font-family:'Didact Gothic', sans-serif;
+	padding-top:3%;
+	padding-bottom:3%;
+}
+section{
+	font-size: 1.1em;
+	line-height: 1.5em;
 }
 .hero{
 	position:relative;
