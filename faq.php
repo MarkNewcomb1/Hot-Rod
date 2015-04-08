@@ -3,7 +3,7 @@
 <article class="inside-buttons">
 	<header><h1>The FAQs</h1></header>
 	<section>
-<a href="Biasing-Thoughts-Advanced.pdf" target="_blank">The Original FAQ</a><br>
+<a href="/original-faq.php">The Original FAQ</a><br>
 <a href="Brightness-mod.pdf" target="_blank">Beginner's Guide to Tube Amps FAQ</a><br>
 <a href="Controlling-the-Hot-Rods-Volume.pdf" target="_blank">About the Webmaster FAQ</a><br>
 </section>
