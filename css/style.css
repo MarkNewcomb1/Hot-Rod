@@ -404,17 +404,18 @@ height: 40px;
 
 /* For the FAQ pages */
 .question {
-	background: url(../img/open.png) no-repeat 0 11px;
-	padding: 10px 0 0 25px;
+	background: url(../img/bullet-point-open.png) no-repeat 0px 10px;
+	background-size:30px;
+	background-position-y: 4px;
+	padding: 10px 0 15px 40px;
 	cursor: pointer;
 	font-weight: 600;
 }
 h2.close {
-	background-image: url(../img/close.png);
+	background-image: url(../img/bullet-point.png);
 }
 .answer {
-	margin-left: 25px;
-	padding-top:1%;
+	margin-left: 40px;
 	padding-bottom:3%;	
 }
 /* media queries */
@@ -459,12 +460,18 @@ h2.close {
 		top:45px;
 		font-size: 1.2em;
 	}
+	.question{
+		background-position-y: 5px;
+	}
 }
 @media only screen and (max-width:500px){
 	.inside-buttons section a{
 		padding:5px 10px;
 		margin-bottom:4%;
 		font-size:.8em;
+	}
+	.question{
+		background-position-y: 7px;
 	}
 }
 
