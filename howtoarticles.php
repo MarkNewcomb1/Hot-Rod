@@ -1,6 +1,6 @@
 <?php include("inc/inc_header.php"); ?>
 <div class="doc_container">
-<article class="the-articles">
+<article class="inside-buttons">
 	<header><h1>The Articles (pdf)</h1></header>
 	<section>
 <a href="Biasing-Thoughts-Advanced.pdf" target="_blank">Biasing Thoughts (Advanced)</a><br>
@@ -17,7 +17,7 @@
 <a href="Reverb-Mods-%26-Info.pdf" target="_blank">Reverb Mods &amp; Info</a><br>
 <a href="The-Steve-Laybutt-Mods.pdf" target="_blank">Steve Laybutt Mods, The</a><br>
 <a href="The-Tube-Rectifier-Sag-Mod.pdf" target="_blank">The Tube Rectifier Sag Mod</a><br>
-<section>
+</section>
 </article>
 </div>
 <?php include("inc/inc_footer.php"); ?>

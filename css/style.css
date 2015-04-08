@@ -284,7 +284,7 @@ section a:hover{
 	color:#f91d38;
 	text-shadow: 0px 0px 17px rgba(255, 54, 54, 1);
 }
-.the-articles section a{
+.inside-buttons section a{
 	padding:10px 20px;
 	margin-bottom:2%;
 	border-radius: .2em;
@@ -297,7 +297,7 @@ section a:hover{
 	transition:color 0.4s ease-out;
 	-webkit-transition: color 0.4s ease-out;
 }
-.the-articles section a:hover{
+.inside-buttons section a:hover{
 	color:rgb(203, 203, 203);
 	background-color:black;
 }
@@ -448,7 +448,7 @@ height: 40px;
 	}
 }
 @media only screen and (max-width:500px){
-	.the-articles section a{
+	.inside-buttons section a{
 		padding:5px 10px;
 		margin-bottom:4%;
 		font-size:.8em;
