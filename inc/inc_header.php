@@ -32,7 +32,7 @@
 <div class="menubar_container">
  <ul id="menu">
     <li><a href="/">Home</a></li>
-    <li><a href="/howtoarticles.php/">How-To Articles</a></li>
+    <li><a href="/howtoarticles.php">How-To Articles</a></li>
     <li><a href="/faq.php">Faq</a>
     	<ul class="dropdown">
 	    	<li id="first-dropdown"><a href="#">The Original FAQ</a></li>
