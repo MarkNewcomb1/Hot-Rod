@@ -418,7 +418,23 @@ h2.close {
 	margin-left: 40px;
 	padding-bottom:3%;	
 }
+em{
+	font-style: oblique;
+}
+figcaption {
+  font-size: 0.8em;
+  font-style: oblique;
+  margin-bottom: 2.5%;
+} 
+p+p{
+	margin-top:2%;
+}
 /* media queries */
+@media only screen and (min-width:720px){
+	div.content50 + figure.content50{
+		padding-left:3%;
+	}
+}
 @media only screen and (max-width:1080px){
 	#firstbutton{
 		margin-left:4%;
@@ -442,6 +458,16 @@ h2.close {
 		width:180px;
 	}
 @media only screen and (max-width:719px){
+	.content100, .content75, .content67, .content50, .content33, .content25{
+		width:100%;
+		float: none;
+		clear:both;
+	}
+	.inner{
+		margin:5px 0;
+		padding:5px 0 20px;
+	}
+
 	.menubar_container{
 		display:none;
 	}
@@ -462,6 +488,12 @@ h2.close {
 	}
 	.question{
 		background-position-y: 5px;
+	}
+	div.content50 + figure.content50{
+		padding-top:5%;
+	}
+	p + figure.content50{
+		padding-top:5%;
 	}
 }
 @media only screen and (max-width:500px){
