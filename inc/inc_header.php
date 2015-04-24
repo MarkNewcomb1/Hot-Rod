@@ -36,8 +36,7 @@
     <li><a href="/faq.php">Faq</a>
     	<ul class="dropdown">
 	    	<li id="first-dropdown"><a href="/original-faq.php">The Original FAQ</a></li>
-	    	<li><a href="#">Beginner's Guide to Tube Amps FAQ</a></li>
-	    	<li id="last-dropdown"><a href="#">About the Webmaster FAQ</a></li>
+	    	<li id="last-dropdown"><a href="/webmasterfaq.php">About the Webmaster FAQ</a></li>
     	</ul> <!-- end dropdown -->
     </li> 
     </li>
