@@ -32,7 +32,7 @@
   <div class="clear"></div>
   <p class="top-space">Bam! Just get an expensive boutique heavy metal head and use the Fender Hot Rod as a speaker cabinet. Actually, the Engl Savage's clean channel is excellent as well.</p>  
       	</div>
-    <h2 class="question">There's something I see in one of these articles that's wrong/inaccurate! Fix it!</h2>
+    <h2 class="question">There's something I see in one of these articles that's wrong! Fix it!</h2>
 	      <div class="answer">
 	        <p><em>*Slides chair back, raises hands up Conan O'Brien style*</em> No. I'm not getting into that. How would I know that your information is correct, and Justin Holton's wasn't? I don't have the electrical engineering background to make that kind of judgement call, and I have absolutely <em>no desire</em> to be the referee. Use the information on this website at your own risk. Or feel free to dismiss this whole thing and click the back button; I don't care. This is strictly a "pet project" of mine that I've built and am keeping up on the web for fellow Hot Rod Deluxe enthusiasts.</p>
       	</div>
