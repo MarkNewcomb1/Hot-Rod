@@ -318,9 +318,9 @@ its internal conductor. What I was hearing through the speaker was an "echo" of 
 caused by less-than-perfectly decoupled gain stages.</p>
 <p>Trouble Shooting the Power Amp: There are usually a couple things that cause a loss of volume
 in the power amp. The first is a shorted tube, which are known to char the screen resistors. I
-documented such a case in the <a href="/Problem-Solved!.pdf">Problems Solved" area</a>. The
+documented such a case in the <a href="/Problem-Solved!.pdf">Problems Solved area</a>. The
 other is the 82K resistor on the phase inverter coming open, so that only one power tube is
-working. I also documented such a case in the <a href="/Problem-Solved!.pdf">Problems Solved" area</a>. Another, though very rare case, would be a damaged/shorted output
+working. I also documented such a case in the <a href="/Problem-Solved!.pdf">Problems Solved area</a>. Another, though very rare case, would be a damaged/shorted output
 transformer. You should be able to tell if there's a short in the OT by checking the plate voltages,
 and then checking if there's any DC voltage on the secondary—which there should not be. The
 last resort would be a blown speaker.</p>
