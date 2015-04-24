@@ -273,14 +273,14 @@ section{
 	font-size: 1.1em;
 	line-height: 1.5em;
 }
-section a{
+a{
 	text-decoration: underline;
 	color:#8E1322;
 	-webkit-transition: all 1s ease-out;
 	transition: all 1s ease-out;
 	
 }
-section a:hover{
+a:hover{
 	color:#f91d38;
 	text-shadow: 0px 0px 17px rgba(255, 54, 54, 1);
 }
@@ -429,10 +429,35 @@ figcaption {
 p+p{
 	margin-top:2%;
 }
+.top-space{
+	padding-top:2%;
+}
+.bottom-space{
+	padding-bottom:2%;
+	}
+.center-text{
+	text-align:center;
+}
+.answer ul li{
+	list-style-type: disc;
+	list-style-position:outside;
+}
 /* media queries */
 @media only screen and (min-width:720px){
 	div.content50 + figure.content50{
 		padding-left:3%;
+	}
+	#champ{
+		width:89.813%;
+	}
+	#tweed{
+		width:95.245%;
+	}
+	#brown{
+		width:95.8%;
+	}
+	#blonde{
+		width:90.153%;
 	}
 }
 @media only screen and (max-width:1080px){
