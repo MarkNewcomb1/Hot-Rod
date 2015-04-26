@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>The Unofficial Fender Hot Rod Owner's Guide</title>
-  <meta name="description" content="Fender Hot Rod Deluxe">
+  <meta name="description" content="The Unofficial Fender Hot Rod Deluxe Owner's Guide">
   <meta name="author" content="Mark Newcomb">
   <!--[if lt IE 9]>
   <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>

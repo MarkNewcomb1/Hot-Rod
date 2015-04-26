@@ -27,7 +27,7 @@
 		        <div class="clear"></div>
 		        <figure class="content100"><img src="img/front-up-close.jpg" alt="front up close"><figcaption>Switching the front logo plate from the old tweed enclosure to the pine one required some careful prying off of the four small nails holding it on, and nailing them into the pine with a small hammer.</figcaption></figure>
   <div class="clear"></div>
-  <p class="bottom-space">One complaint I have with the Hot Rod is that their distortion channel, called "More Drive," is a lackluster, pre hard-rock idea of guitar distortion. Here's a simple trick you can do to improve that...</p>
+  <p class="bottom-space">One complaint I have with the Hot Rod is that their distortion channel is a lackluster, pre hard-rock idea of guitar distortion. Here's a simple trick you can do to improve that...</p>
   <figure class="content100"><img src="img/engl-with-fender.jpg" alt="engl savage 120 on top of fender hot rod"></figure>
   <div class="clear"></div>
   <p class="top-space">Bam! Just get an expensive boutique heavy metal head and use the Fender Hot Rod as a speaker cabinet. Actually, the Engl Savage's clean channel is excellent as well.</p>  
