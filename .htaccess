@@ -1,0 +1,7 @@
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^www\.hotroddiy\.com$
+RewriteRule ^/?$ "http\:\/\/hotroddiy\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^143\.95\.81\.210
+RewriteRule (.*) http://hotroddiy.com/$1 [R=301,L]
+RewriteCond %{HTTP_USER_AGENT} libwww-perl.* 
+RewriteRule .* – [F,L]
