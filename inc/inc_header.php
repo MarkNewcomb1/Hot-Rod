@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>The Unofficial Fender Hot Rod Owner's Guide</title>
   <meta name="description" content="The Unofficial Fender Hot Rod Deluxe Owner's Guide">
+  <meta name="keywords" content="Unofficial Fender Hot Rod Deluxe Owner's Guide, Fender Hot Rod Deluxe, Justin Holton, DIY, Tube Amps">
   <meta name="author" content="Mark Newcomb">
   <meta name="title" content="The Unofficial Fender Hot Rod Deluxe Owner's Guide">
   <!--[if lt IE 9]>

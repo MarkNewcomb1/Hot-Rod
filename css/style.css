@@ -429,6 +429,9 @@ figcaption {
 p+p{
 	margin-top:2%;
 }
+.plain{
+	display:inline;
+}
 .top-space{
 	padding-top:2%;
 }

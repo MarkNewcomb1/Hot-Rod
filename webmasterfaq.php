@@ -4,7 +4,7 @@
 <article>
 		<header><h1>About the Webmaster FAQ</h1></header>
 	<div class="main">
-	<h2 class="question">Oh wow, is this Justin Holton, bringing back the content that was on the old Unofficial Fender Hot Rod Deluxe User's Guide?</h2>
+	<h2 class="question">Oh wow, is this <div itemscope itemtype="http://schema.org/Person" class="plain"><span itemprop="name">Justin Holton</span></div>, bringing back the content that was on the old Unofficial Fender Hot Rod Deluxe User's Guide?</h2>
 	    <div class="answer">
 	        <p>No; it's his content, but I'm not Justin. His site used to be on studentweb.eku.edu/justin_holton (link does not work), and then he put it up on another address, justinholton.com (also doesn't work).</p><p>He seems to have abandoned this information, or at least in terms of keeping the content up on the web.</p>
 	      </div>
