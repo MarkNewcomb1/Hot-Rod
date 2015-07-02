@@ -5,7 +5,7 @@
 		<a class="button" href="faq.php" id="secondbutton">The FAQs</a>
 		</div> <!-- end button container for the buttons -->
 		<figure class="content100">
-			<img src="img/hero_element.png" alt="hero element">
+			<img src="img/hero-element.png" alt="hero element">
 		</figure>
 </div> <!-- end hero -->
 <div class="doc_container">

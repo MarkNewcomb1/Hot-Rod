@@ -7,10 +7,11 @@
   <title>The Unofficial Fender Hot Rod Owner's Guide</title>
   <meta name="description" content="The Unofficial Fender Hot Rod Deluxe Owner's Guide">
   <meta name="author" content="Mark Newcomb">
+  <meta name="title" content="The Unofficial Fender Hot Rod Deluxe Owner's Guide">
   <!--[if lt IE 9]>
   <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
   <![endif]-->
-	<link rel="stylesheet" href="css/style.css?v=<?php echo time(); ?>">
+	<link rel="stylesheet" href="css/style.css?v=<?php echo time(); ?>" media="screen, projection, print">
 	<link href='http://fonts.googleapis.com/css?family=Didact+Gothic' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="SlickNav/slicknav.css?v=<?php echo time(); ?>" />
 	<link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />

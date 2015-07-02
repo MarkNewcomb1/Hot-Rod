@@ -537,4 +537,21 @@ p+p{
 		background-position-y: 7px;
 	}
 }
-
+@media print {
+ 	h1, section, article, p, a {
+	 	color: #000!important;	
+ 	}
+ 	* {
+	 	background-color:#FFF!important;
+	 	background-image:none!important;
+ 	}
+ 	.hero {
+	 	display:none!important;
+ 	}
+ 	a[href^="http://"]:after {
+	 	content: " (" attr(href) ") ";
+ 	}
+ 	a {
+	 	word-wrap: break-word;
+ 	}
+}
