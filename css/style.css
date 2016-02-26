@@ -83,6 +83,7 @@ footer {
 	background-image:url("/img/tolex-background.jpg");
 	background-repeat:space;
 	background-size:cover;
+	background-color:black;
     -webkit-background-size:cover;
     color:white;
 }
