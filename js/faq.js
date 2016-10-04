@@ -4,12 +4,13 @@ $(document).ready(function() {
  $('.answer').hide();
  $('.main h2').click(function() {
  	var $answer = $(this).next('.answer');
+ 	var $allAnswers = $('.answer');
 	if ($answer.is(':hidden')) {
 		$answer.slideDown();
 		$(this).addClass('close');
 	} else {
-		$answer.fadeOut();
-		$(this).removeClass('close');
+		$allAnswers.fadeOut();
+		$('.main h2').removeClass('close');
 	}
  }
 	); // end click
